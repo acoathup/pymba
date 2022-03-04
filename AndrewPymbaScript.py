@@ -1,5 +1,4 @@
 '''
-This is an example to stream video from the camera, it was taken from 
 https://github.com/morefigs/pymba/blob/master/examples/camera/opencv_acquire_streaming_images.py
 
 '''
