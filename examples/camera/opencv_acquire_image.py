@@ -27,3 +27,4 @@ if __name__ == '__main__':
         camera.disarm()
 
         camera.close()
+    

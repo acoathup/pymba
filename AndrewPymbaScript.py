@@ -9,6 +9,8 @@ from pymba import Vimba
 from examples.camera._display_frame import display_frame
 
 
+
+
 if __name__ == '__main__':
 
     with Vimba() as vimba:
@@ -20,7 +22,10 @@ if __name__ == '__main__':
         camera.start_frame_acquisition()
 
         # stream images for a while...
-        sleep(10)
+        '''We want to put a loop here like:
+        while (stop button == not clicked)
+            continue'''
+        sleep(5)
 
         # stop frame acquisition
         # start_frame_acquisition can simply be called again if the camera is still armed
